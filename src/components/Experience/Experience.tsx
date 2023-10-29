@@ -54,7 +54,7 @@ export default function Experience(){
                         {job =='job3'&& <div>
                         <div className="text-2xl font-extrabold">OJT <span className="text-[#FF014F]">@ Karachi Shipyard</span></div>
                             <ul className="">
-                                <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Enhanced the reliability and stability of Site 2's Ship Lift Transfer Systems by effectively maintaining the main Power Grid.</span></li>
+                                <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Enhanced the reliability and stability of Site 2&apos;s Ship Lift Transfer Systems by effectively maintaining the main Power Grid.</span></li>
                                 <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Responsible for teaching technicians about the installation of equipment including PLC panels.</span></li>
                                 <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Consistently delivered daily progress reports to both Karachi Shipyard and IŞIK ENGINEERING, ensuring transparent communication and alignment on project milestones.</span></li>
 
