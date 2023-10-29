@@ -28,9 +28,9 @@ export default function Experience(){
                 <Separator />
                 <div className="text-lg flex gap-2">
                     <div>
-                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer`} onClick={()=>setJob('job1')}>NCAI</div>
-                        <div className="px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer" onClick={()=>setJob('job2')}>Technosol</div>
-                        <div className='px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer' onClick={()=>setJob('job3')}>KSEW</div>
+                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${job == 'job1' && 'text-[#FF014F]'}`} onClick={()=>setJob('job1')}>NCAI</div>
+                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${job == 'job2' && 'text-[#FF014F]'}`} onClick={()=>setJob('job2')}>Technosol</div>
+                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${job == 'job3' && 'text-[#FF014F]'}`} onClick={()=>setJob('job3')}>KSEW</div>
                     </div>
                     <div className="w-full h-full">
                         {job =='job1'&& <div>
