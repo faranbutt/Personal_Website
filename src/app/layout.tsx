@@ -19,10 +19,10 @@ export default function RootLayout(props:any){
     <html lang="en">
       <body className={muse.className}>
       <div className='bg-[#ECF0F3] w-full  h-full'>
-          <div className='px-4'>
+          <div className='z-0'>
             <Navbar />
           </div>
-          <div className='flex pb-24'>
+          <div className='flex pb-24 z-0'>
             <div className=''> {props.children} </div>
           </div>
       </div>

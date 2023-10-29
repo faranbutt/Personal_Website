@@ -22,7 +22,7 @@ const navParts = [
     },
 ]
     return (
-        <div className="flex justify-between px-10 pt-4">
+        <div className="flex px-10 pt-4 fixed w-screen justify-between mb-10 z-20 bg-[#ECF0F3]">
             <div>
                 <Image src={'/logo2.gif'} alt="logo-faran" width={200} height={200}/>
             </div>
