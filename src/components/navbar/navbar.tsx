@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
-
+import Link from "next/link";
 
 export default function Navbar(){
 const navParts = [
@@ -15,10 +15,6 @@ const navParts = [
     {
         key:3,
         part:"About"
-    },
-    {
-        key:4,
-        part:"Github"
     },
 ]
     return (
@@ -35,7 +31,9 @@ const navParts = [
                             </div>
                    ))}
                 </div>
+                <div><Link href={'https://github.com/faranbutt?tab=repositories'}><Image src={'/github.png'} alt={'github'} width={40} height={40} className="bg- rounded-full hover:bg-[#FF014F] bg-black p-1" /></Link></div>
                 <div>
+                
                 <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white">Resume</button>
                 </div>
             </div>
