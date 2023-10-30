@@ -1,8 +1,8 @@
 import About from "../about/about";
 import Skills from "../Skills/Skills";
 import Experience from "../Experience/Experience";
-import ReasarchInterests from '../interests/Interests.tsx';
-import Projects from '../Projects/projects.tsx';
+import ReasarchInterests from "../interests/Interests";
+import Projects from "../Projects/projects";
 
 export default function Detail(){
     return(
