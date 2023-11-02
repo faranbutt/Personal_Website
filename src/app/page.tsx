@@ -11,7 +11,7 @@ export default async function Home() {
     </div>
     <div className='flex flex-col gap-3 items-center text-left'>
       <div className='text-5xl font-extrabold'>
-        👋 Hi I&apos;m <span className='text-[#FF014F]'>Faran Butt</span>
+        <span className='wave'>👋</span> Hi I&apos;m <span className='text-[#FF014F]'>Faran Butt</span>
       </div>
       <div className='text-gray-600 text-2xl font-bold'>I love coding Intelligent Systems</div>
       <div className='text-gray-600 pl-20'>

@@ -31,7 +31,7 @@ const navParts = [
                             </div>
                    ))}
                 </div>
-                <div><Link href={'https://github.com/faranbutt?tab=repositories'}><Image src={'/github.png'} alt={'github'} width={40} height={40} className="bg- rounded-full hover:bg-[#FF014F] bg-black p-1" /></Link></div>
+                <div><Link href={'https://github.com/faranbutt'} target="_blank" ><Image src={'/github.png'} alt={'github'} width={40} height={40} className="bg- rounded-full hover:bg-[#FF014F] bg-black p-1" /></Link></div>
                 <div>
                 
                 <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white">Resume</button>

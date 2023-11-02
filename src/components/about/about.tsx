@@ -7,7 +7,7 @@ export default function About(){
                 <div className="flex items-center gap-3 text-left"><div className="text-[#FF014F]">01.</div><div className="text-4xl font-black">About Me 👨🏻‍💻</div></div>
                 <Separator />
                 <div className="text-lg flex flex-col gap-2">
-                    <div>Interestingly, I got introduced to programming in my freshman year at Air University, Islamabad where I completed my Bachelors in Electrical Engineering(2016-2020)</div>
+                    <div>Interestingly, I got introduced to programming in my freshman year at Air University, Islamabad where I completed my <span className="text-[#FF014F]">Bachelors in Electrical Engineering(2016-2020)</span></div>
                     <div>I have worked as a Research Intern at <span className="text-[#FF014F]">NCAI NUST</span> for 6 months</div>
                     <div>I have participated in <span className="text-[#FF014F]">10 International Hackathons</span> won <span className="text-[#FF014F]">5 International Hackathons</span> conducted by LabLab.ai </div>
                 </div>

@@ -8,8 +8,8 @@ export default function Detail(){
     return(
         <div className="flex flex-col gap-5">
             <About />
-            <Skills />
             <Experience />
+            <Skills />
             <ReasarchInterests />
             <Projects />
         </div>
