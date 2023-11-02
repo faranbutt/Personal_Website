@@ -9,7 +9,7 @@ export default function Projects(){
     return (
         <div className="w-[500px] h-full bg-gradient-to-br from-[#E3E9EC] to-[#FEFFFF] flex p-5 rounded-lg shadow-xl text-gray-500">
             <div className="flex flex-col w-full">
-                <div className="flex items-center gap-3 text-left"><div className="text-[#FF014F]">04.</div><div className="text-4xl text-black font-black">Projects 🔍</div></div>
+                <div className="flex items-center gap-3 text-left"><div className="text-[#FF014F]">04.</div><div className="text-4xl text-black font-black">Projects ☢️</div></div>
                 <Separator />
                 <div className="text-lg flex gap-2">
                     <div>
