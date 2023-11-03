@@ -4,7 +4,7 @@ import Detail from '@/components/detail/detail'
 export default async function Home() {
 
   return (
-    <main className='flex flex-col md:flex-row mt-20 w-screen z-0'>
+    <main className='flex flex-col md:flex-col lg:flex-row mt-20 w-screen z-0'>
   <div className={`flex flex-col gap-4 md:pl-32 md:w-1/2 sm: lg:fixed mb-8 mx-3`}>
     <div className='flex justify-center items-center'>
       <Image src={'/faran.jpg'} alt='profile-pic' width={140} height={140} className='rounded-full border-[5px] border-[#fefefe]' />
