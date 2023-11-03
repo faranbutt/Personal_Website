@@ -3,13 +3,16 @@
 ## Technologies used:
 * Front End ===:> Next.js Tailwind CSS, Vercel
 * Back End ===:> Next.js API routes
+## UI:
+[y1](https://github.com/faranbutt/Personal_Website/blob/main/public/website.png)
+
 ## Key Features:
 * Optimized and Fast 🚀
 * Fully responsive design been tested on several devices 📱
 * The interface is interactive due to Tailwind be interactive with some meaningfull colors. 🎨
 
 ## FrontEnd Deployed on Vercel:
-https://dine-three.vercel.app/
+https://faranbutt.vercel.app/
 
 ## To Run/Change this design:
 ```
