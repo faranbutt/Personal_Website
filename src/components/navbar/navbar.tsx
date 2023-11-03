@@ -36,12 +36,12 @@ const [menuOpen, setisMenuOpen] = useState(false)
     setisMenuOpen(!menuOpen);
   }
     return (
-        <nav className="flex px-2 md:px-10 pt-4 fixed w-screen justify-between bg-[#ECF0F3]">
+        <nav className="flex px-2 md:px-10 pt-4 md:mb-4 fixed w-screen justify-between z-0">
             <div className="w-[100px] md:w-[200px] md:h-[200px]">
                 <Image src={'/logo2.gif'} alt="logo-faran" width={200} height={200}/>
             </div>
            <div className="hidden sm:block"> 
-            <div className="flex justify-center items-center gap-5">
+            <div className="flex justify-center items-center gap-5 bg-[#ECF0F3]">
                 <div className="flex justify-center items-center gap-5">
                     {navParts.map((part)=>(
                          <div key={part.key} className="flex gap-2">
@@ -52,12 +52,12 @@ const [menuOpen, setisMenuOpen] = useState(false)
                 <div><Link href={'https://github.com/faranbutt'} target="_blank" ><Image src={'/github.png'} alt={'github'} width={40} height={40} className="bg- rounded-full hover:bg-[#FF014F] bg-black p-1" /></Link></div>
                 <div>
                 
-                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white">Resume</button>
+                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]">Resume</button>
                 </div>
             </div>
             </div>
             <div className="lg:hidden">
-                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white">Resume</button>
+                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]">Resume</button>
             </div>
             <div className="lg:hidden">
                 <div className="flex justify-end items-end">
