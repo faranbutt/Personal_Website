@@ -36,7 +36,7 @@ const [menuOpen, setisMenuOpen] = useState(false)
     setisMenuOpen(!menuOpen);
   }
     return (
-        <nav className="flex px-2 md:px-10 pt-4 md:mb-4 fixed w-screen justify-between mb-10 z-20 bg-[#ECF0F3]">
+        <nav className="flex px-2 md:px-10 pt-4 fixed w-screen justify-between bg-[#ECF0F3]">
             <div className="w-[100px] md:w-[200px] md:h-[200px]">
                 <Image src={'/logo2.gif'} alt="logo-faran" width={200} height={200}/>
             </div>
