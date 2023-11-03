@@ -20,7 +20,7 @@ export default async function Home() {
       </div>
     </div>
   </div>
-  <div className='md:flex-1 flex justify-center items-center md:justify-end lg:items-end lg:pr-10'>
+  <div className='md:flex-1 flex justify-center items-center lg:justify-end lg:items-end lg:pr-10'>
     <Detail />
   </div>
 </main>
