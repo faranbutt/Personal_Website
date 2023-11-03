@@ -4,7 +4,7 @@
 * Front End ===:> Next.js Tailwind CSS, Vercel
 * Back End ===:> Next.js API routes
 ## UI:
-[y1](https://github.com/faranbutt/Personal_Website/blob/main/public/website.png)
+![y1](https://github.com/faranbutt/Personal_Website/blob/main/public/website.png)
 
 ## Key Features:
 * Optimized and Fast 🚀
