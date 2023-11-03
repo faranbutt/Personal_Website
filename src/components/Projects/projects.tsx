@@ -7,15 +7,15 @@ export default function Projects(){
     const [genre,setGenre] = useState('full');
 
     return (
-        <div className="w-[500px] h-full bg-gradient-to-br from-[#E3E9EC] to-[#FEFFFF] flex p-5 rounded-lg shadow-xl text-gray-500">
+        <div id="projects" className="w-[300px] md:w-[500px] md:h-full bg-gradient-to-br from-[#E3E9EC] to-[#FEFFFF] flex p-5 rounded-lg shadow-xl">
             <div className="flex flex-col w-full">
-                <div className="flex items-center gap-3 text-left"><div className="text-[#FF014F]">04.</div><div className="text-4xl text-black font-black">Projects ☢️</div></div>
+                <div className="flex items-center gap-3 md:text-left"><div className="text-[#FF014F]">05.</div><div className="text-2xl md:text-4xl font-black">Projects ☢️</div></div>
                 <Separator />
-                <div className="text-lg flex gap-2">
-                    <div>
-                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${genre == 'full' && 'text-[#FF014F]'}`} onClick={()=>setGenre('full')}>Full Stack Development</div>
-                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${genre == 'ai' && 'text-[#FF014F]'}`} onClick={()=>setGenre('ai')}>AI</div>
-                        <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${genre == 'robotics' && 'text-[#FF014F]'}`} onClick={()=>setGenre('robotics')}>Robotics</div>
+                <div className="text-sm md:text-lg flex flex-col md:flex-row gap-3">
+                    <div className="flex flex-row md:flex-col justify-center md:justify-start gap-3 md:gap-2">
+                        <div className={`md:px-4 md:py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${genre == 'full' && 'text-[#FF014F]'}`} onClick={()=>setGenre('full')}>Fullstack Development</div>
+                        <div className={`md:px-4 md:py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${genre == 'ai' && 'text-[#FF014F]'}`} onClick={()=>setGenre('ai')}>AI</div>
+                        <div className={`md:px-4 md:py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${genre == 'robotics' && 'text-[#FF014F]'}`} onClick={()=>setGenre('robotics')}>Robotics</div>
                     </div>
                     <div className="w-full h-full">
                         {genre =='full'&& <div>

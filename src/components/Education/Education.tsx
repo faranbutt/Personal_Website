@@ -4,11 +4,11 @@ import { useState } from "react";
 export default function Education(){
     const [education,seteducation] = useState('air');
     return (
-        <div className="w-[500px] h-full bg-gradient-to-br from-[#E3E9EC] to-[#FEFFFF] flex p-5 rounded-lg shadow-xl text-gray-500">
+        <div className="w-[300px] md:w-[500px] md:h-96 bg-gradient-to-br from-[#E3E9EC] to-[#FEFFFF] flex p-5 rounded-lg shadow-xl">
             <div className="flex flex-col w-full">
-                <div className="flex items-center gap-3 text-left"><div className="text-[#FF014F]">05.</div><div className="text-4xl text-black font-black">Education 🎓</div></div>
+                <div className="flex items-center gap-3 md:text-left"><div className="text-[#FF014F]">06.</div><div className="text-2xl md:text-4xl font-black">Education 🎓</div></div>
                 <Separator />
-                <div className="text-lg flex gap-2">
+                <div className="text-sm md:text-lg flex gap-2">
                     <div>
                         <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${education == 'air' && 'text-[#FF014F]'}`} onClick={()=>seteducation('air')}>AIR</div>
                         <div className={`px-4 py-2 hover:bg-red-300 hover:text-[#FF014F] cursor-pointer ${education == 'nust' && 'text-[#FF014F]'}`} onClick={()=>seteducation('nust')}>NUST</div>
