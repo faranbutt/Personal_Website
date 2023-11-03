@@ -17,7 +17,7 @@ export default function Experience(){
                     <div className="w-full h-full">
                         {job =='job1'&& <div>
                             <div className="text-lg md:text-2xl font-extrabold">Research Intern <span className="text-[#FF014F]">@ NCAI</span></div>
-                            <ul className="text-sm md:text-md">
+                            <ul className="text-sm md:text-lg">
                                 <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Integrated AR technology (Magic Leap headset, Unity) into an Autonomous Wheelchair project.</span></li>
                                 <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Developed an advanced SLAM algorithm for precise and speedy mapping using laser range finder and stereo camera data.</span></li>
                                 <li className="text-gray-600 flex justify-between gap-3"><span className="text-[#FF014F]">▹</span><span>Upgraded hardware by migrating to Raspberry Pi, enhancing system performance.</span></li>
