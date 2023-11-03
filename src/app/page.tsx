@@ -5,7 +5,7 @@ export default async function Home() {
 
   return (
     <main className='flex flex-col md:flex-col lg:flex-row mt-20 w-screen z-0'>
-  <div className={`flex flex-col gap-4 md:pl-32 md:w-1/2 sm: lg:fixed mb-8 mx-3`}>
+  <div className={`flex flex-col gap-4 lg:pl-32 lg:w-1/2 sm: lg:fixed mb-8 mx-3`}>
     <div className='flex justify-center items-center'>
       <Image src={'/faran.jpg'} alt='profile-pic' width={140} height={140} className='rounded-full border-[5px] border-[#fefefe]' />
     </div>
@@ -20,7 +20,7 @@ export default async function Home() {
       </div>
     </div>
   </div>
-  <div className='md:flex-1 flex justify-center items-center md:justify-end md:items-end md:pr-10'>
+  <div className='md:flex-1 flex justify-center items-center md:justify-end lg:items-end lg:pr-10'>
     <Detail />
   </div>
 </main>
