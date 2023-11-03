@@ -58,10 +58,10 @@ const [menuOpen, setisMenuOpen] = useState(false)
                 </div>
             </div>
             </div>
-            <div className="lg:hidden">
+            <div className="md:hidden lg:hidden">
                 <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]">Resume</button>
             </div>
-            <div className="lg:hidden">
+            <div className="md:hidden lg:hidden">
                 <div className="flex justify-end items-end">
                 <button className={`flex justify-end p-2 rounded-xl border-2 border-[#FF014F] hover:bg-[#FF014F]`} onClick={handleMenuToggle}>
                     {menuOpen ? (<XCircle />) : (<Menu />)}
