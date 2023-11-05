@@ -45,7 +45,7 @@ const [menuOpen, setisMenuOpen] = useState(false)
                 <div className="flex justify-center items-center gap-5">
                     {navParts.map((part)=>(
                          <div key={part.key} className="flex gap-2">
-                            <Link href={part.link}>
+                            <Link href={part.link} className="flex gap-1 justify-center items-center">
                         <span className="text-[#FF014F] text-sm">0{part.key}.</span><span className="hover:text-[#FF014F] cursor-pointer">{part.part}</span>
                             </Link>
                             </div>
