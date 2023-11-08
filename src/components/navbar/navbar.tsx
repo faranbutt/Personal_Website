@@ -55,12 +55,12 @@ const [menuOpen, setisMenuOpen] = useState(false)
                 <div><Link href={'https://www.linkedin.com/in/faranbutt/'} target="_blank" ><Image src={'/linkedin.png'} alt={'github'} width={40} height={40} className="bg- rounded-full hover:bg-[#FF014F] bg-white " /></Link></div>
                 <div>
                 
-                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]"><Link href={'https://docs.google.com/document/d/12BUQn_Q-3RoG2fiYv3_eO0og4DovFFcAWXqJjSFaWlI/edit?usp=sharing'}>Resume</Link></button>
+                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]"><Link href={'https://docs.google.com/document/d/12BUQn_Q-3RoG2fiYv3_eO0og4DovFFcAWXqJjSFaWlI/edit?usp=sharing'} target="_blank">Resume</Link></button>
                 </div>
             </div>
             </div>
             <div className="md:hidden lg:hidden">
-                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]"><Link href={'https://docs.google.com/document/d/12BUQn_Q-3RoG2fiYv3_eO0og4DovFFcAWXqJjSFaWlI/edit?usp=sharing'}>Resume</Link></button>
+                <button className="flex justify-center items-center px-3 py-2 border-2 border-[#FF014F] text-[#FF014F] text-sm rounded-lg hover:bg-[#FF014F] hover:text-white hover:border-white bg-[#ECF0F3]"><Link href={'https://docs.google.com/document/d/12BUQn_Q-3RoG2fiYv3_eO0og4DovFFcAWXqJjSFaWlI/edit?usp=sharing'} target="_blank">Resume</Link></button>
             </div>
             <div className="md:hidden lg:hidden">
                 <div className="flex justify-end items-end">
@@ -73,7 +73,7 @@ const [menuOpen, setisMenuOpen] = useState(false)
                     {navParts.map((part)=>(
                             <li className="text-white py-1 hover:bg-white hover:text-[#FF014F] cursor-pointer" key={part.key}><Link href={part.link}>{part.part}</Link></li>
                         ))}
-                        <li className="text-white py-1 hover:bg-white hover:text-[#FF014F] cursor-pointer"><Link href={'https://docs.google.com/document/d/12BUQn_Q-3RoG2fiYv3_eO0og4DovFFcAWXqJjSFaWlI/edit?usp=sharing'}>📋Resume</Link></li>
+                        <li className="text-white py-1 hover:bg-white hover:text-[#FF014F] cursor-pointer"><Link href={'https://docs.google.com/document/d/12BUQn_Q-3RoG2fiYv3_eO0og4DovFFcAWXqJjSFaWlI/edit?usp=sharing'} target="_blank">📋Resume</Link></li>
                         <li className="text-white py-1 hover:bg-white hover:text-[#FF014F] cursor-pointer"><Link href={'https://github.com/faranbutt'} className="flex justify-center items-center gap-2"><div><Image src={'/github.png'} alt={'github'} width={20} height={20} className="bg- rounded-full hover:bg-[#FF014F] bg-black" /></div><div>Github</div></Link></li>
                         <li className="text-white py-1 hover:bg-white hover:text-[#FF014F] cursor-pointer"><Link href={'https://www.linkedin.com/in/faranbutt/'} className="flex justify-center items-center gap-2"><div><Image src={'/linkedin.png'} alt={'github'} width={20} height={20} className="bg- rounded-full hover:bg-[#FF014F] bg-white" /></div><div>Linkedin</div></Link></li>
                                                 
